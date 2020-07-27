@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Ivan Peerz Abreu Personal Portfolio": {
+    "personal-portfolio": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Ivan Peerz Abreu Personal Portfolio:build"
+            "browserTarget": "personal-portfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Ivan Peerz Abreu Personal Portfolio:build:production"
+              "browserTarget": "personal-portfolio:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Ivan Peerz Abreu Personal Portfolio:build"
+            "browserTarget": "personal-portfolio:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "Ivan Peerz Abreu Personal Portfolio-e2e": {
+    "personal-portfolio-e2e": {
       "root": "",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -116,7 +116,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "Ivan Peerz Abreu Personal Portfolio:serve"
+            "devServerTarget": "personal-portfolio:serve"
           }
         },
         "lint": {
@@ -133,7 +133,7 @@
       }
     }
   },
-  "defaultProject": "Ivan Peerz Abreu Personal Portfolio",
+  "defaultProject": "personal-portfolio",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
